@@ -1,0 +1,17 @@
+.item{
+    border: 1px solid;
+    padding: 30px;
+}
+.one{
+    background-color: blue;
+}
+.lewa{
+    background-color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px 200px;
+    grid-auto-rows: 150px;
+    grid-gap:10px;
+}
